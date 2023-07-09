@@ -1,0 +1,17 @@
+module Common
+  module Constants
+    TOTAL_NUMBER_OF_FIELDS = 6
+    # Range of fields
+    MIN_OF_DAY_OF_MONTH = 1
+    MAX_OF_DAY_OF_MONTH = 31
+    MIN_OF_DAY_OF_WEEK = 0
+    MAX_OF_DAY_OF_WEEK = 6
+    MIN_OF_HOURS = 0
+    MAX_OF_HOURS = 23
+    MIN_OF_MINUTES = 0
+    MAX_OF_MINUTES = 59
+    MIN_OF_MONTHS = 1
+    MAX_OF_MONTHS = 12
+    FIELDS_SEQUENCE = %w[MINUTE HOUR DAY_OF_MONTH MONTH DAY_OF_WEEK COMMAND].freeze
+  end
+end

@@ -22,5 +22,10 @@ This project is a cron expression parser implemented in Ruby. It provides a mech
    git clone https://github.com/your-username/cron-expression-parser.git
 2. Run command:
 
-  ```shell
-  ruby cron_parser.rb "*/15 0 1,15 * 1-5 /user/bin/find"
+   ```shell
+   ruby cron_parser.rb "*/15 0 1,15 * 1-5 /user/bin/find"
+2. Run tests on a specific file:
+
+   ```shell
+   bundle install
+   example : rspec specs/factories/expression_parser_spec.rb
